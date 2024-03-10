@@ -1,5 +1,5 @@
 const API_KEY = "ce66c616d47e49a7bd9272a88c0d1b1f";
-const url = "https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/everything?q=";
+const url = "https://newsapi.org/v2/everything?q=";
 
 window.addEventListener("load", () => fetchNews("Tech"));
 
